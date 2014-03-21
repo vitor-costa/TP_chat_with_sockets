@@ -32,18 +32,6 @@ public class TCPServer {
             } catch (IOException e) {
                 connectionSocket.close();
             }
-
-//            Socket connectionSocket = welcomeSocket.accept();
-//
-//            BufferedReader inFromClient = new BufferedReader(new InputStreamReader(connectionSocket.getInputStream()));
-//
-//            DataOutputStream outToClient = new DataOutputStream(connectionSocket.getOutputStream());
-//
-//            clientSentence = inFromClient.readLine();
-//
-//            capitalizedSentence = clientSentence.toUpperCase() + '\n';
-//
-//            outToClient.writeBytes(capitalizedSentence);
         }
     }
 }
